@@ -1,0 +1,22 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+.main {
+  background-color: #fafafa;
+ padding: 5px;
+  width: 650px;
+  margin: 100px auto;
+}
+.display {
+    display: flex;
+ margin-left: 200px;
+}
+.image {
+  background-color: #1c9b880f;
+}
+.border {
+  background-color: white;
+  padding: 50px;
+  width: 500px;
+  margin: 40px auto;
+}
