@@ -1,22 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 30px;
+  padding: 10px;
+}
+h3 {
+  padding: 10px;
+}
+p {
+  line-height: 25px;
+}
 body {
-    font-family: 'Red Hat Display', sans-serif;
+  font-family: "Red Hat Display", sans-serif;
 }
 .main {
   background-color: #fafafa;
- padding: 5px;
-  width: 650px;
-  margin: 100px auto;
+  padding: 20px;
 }
 .display {
-    display: flex;
- margin-left: 200px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
 }
+
 .image {
   background-color: #1c9b880f;
 }
+.img {
+  display: block;
+  margin: auto;
+}
 .border {
   background-color: white;
-  padding: 50px;
+  padding: 30px;
   width: 500px;
-  margin: 40px auto;
+  margin: 20px auto;
+}
+@media (max-width:500px) {
+  .border {
+    width: 350px;
+  }
 }
