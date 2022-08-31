@@ -11,6 +11,7 @@ h3 {
 }
 p {
   line-height: 25px;
+  padding: 10px;
 }
 body {
   font-family: "Red Hat Display", sans-serif;
@@ -39,7 +40,7 @@ body {
   width: 500px;
   margin: 20px auto;
 }
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .border {
     width: 350px;
   }
